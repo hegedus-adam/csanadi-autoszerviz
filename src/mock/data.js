@@ -10,17 +10,17 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Csanádi Autószerviz',
+  subtitle: 'Márkafüggetlen személy- és kistehergépjármű szerviz Egerben.',
+  cta: 'Tudjon meg többet!',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Márkafüggetlen személy- és kistehergépjármű szerviz Egerben.',
+  paragraphTwo: ' ',
+  paragraphThree: ' ',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,27 +29,31 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Olajcsere',
+    info:
+      'Az olajcserét érdemes kb. 10 000 kilométerenként, de legalább évente elvégezni azért, hogy az hatékonyan és megbízhatóan működjön.',
     info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Futóműbeállítás',
+    info:
+      'A rendszeres és szakszerű futóműbeállítás célja biztosítani a gumiabroncsok megfelelő úttartását és élettartamának növelését.',
+    info2:
+      'A futóműbeállítás során ellenőrizzük a kerekek irányát és szögét a gépjármű gyártója által meghatározott értékekhez képest. Korrigáljuk az kerékösszetartást - széttartást, illetve a pozitív és negatív kerékdőlést, hogy a gépjármű biztonságosan és gazdaságosan közlekedhessen.',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'Műszaki vizsgáztatás',
+    info: 'Vállaljuk autójának műszaki vizsgára való felkészítését és ügyintézését.',
+    info2:
+      'Az átvizsgálás során feltárt javítást igénylő hibákról, hiányosságokról tájékoztatjuk és elvégezzük a szükséges javításokat. A járművet ezután egy kijelölt vizsgaállomáson vizsgáztatjuk le.',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
